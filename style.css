@@ -2,3 +2,86 @@ body {
     background-color: #010632
     ;
 }
+/* ___HEADER______________________________________________________________ */
+
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.nav-list-item {
+    list-style: none;
+    text-decoration: none;
+    
+    height: 29px;
+    left: 138px;
+    top: 23px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+
+    /* текст */
+
+    color: #FFFFFF;
+}
+
+.nav-list-item:hover {
+    color: #ffb800;
+    cursor: pointer;
+}
+
+.nav-list-item:not(:last-child) {
+    margin-right: 55px;
+}
+
+.header-title {
+    margin: 0;
+    list-style: none;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 69px;
+    margin-right: 55px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+/* _______________________________________________________________________ */
+/* ___HERO________________________________________________________________ */
+
+.image-list {
+    list-style: none;
+}
+
+.hero1 {
+    position: absolute;
+    width: 1440px;
+    height: 714px;
+    left: 0px;
+    top: 65px;
+}
+
+.hero2 {
+    position: absolute;
+    width: 538px;
+    height: 714px;
+    left: 515px;
+    top: 65px;
+}
+
+.hero3 {
+    position: absolute;
+    width: 388px;
+    height: 715px;
+    left: 1052px;
+    top: 64px;
+}
