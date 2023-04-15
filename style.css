@@ -1,33 +1,42 @@
 body {
-    background-color: #010632
-    ;
+    background-color: #ffffff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ol, ul {
+  list-style: none;
 }
 /* ___HEADER______________________________________________________________ */
+
+header {
+    height: 65px;
+    margin: 0 auto;
+    width: 1440px;
+    background-color: #010632;
+}
 
 
 .nav-list {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
+    margin-top: 4px;
+    align-items: center;
 }
 
 .nav-list-item {
     list-style: none;
     text-decoration: none;
-    
-    height: 29px;
-    left: 138px;
-    top: 23px;
 
     font-family: 'Jost';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 35px;
-
     /* текст */
-
     color: #FFFFFF;
 }
 
@@ -41,7 +50,6 @@ body {
 }
 
 .header-title {
-    margin: 0;
     list-style: none;
     font-family: 'Istok Web';
     font-style: normal;
@@ -51,37 +59,176 @@ body {
     margin-right: 55px;
     /* identical to box height */
 
-
     color: #FFFFFF;
 }
 
 /* _______________________________________________________________________ */
 /* ___HERO________________________________________________________________ */
 
-.image-list {
-    list-style: none;
-}
-
-.hero1 {
-    position: absolute;
-    width: 1440px;
-    height: 714px;
-    left: 0px;
-    top: 65px;
-}
-
-.hero2 {
-    position: absolute;
-    width: 538px;
-    height: 714px;
-    left: 515px;
-    top: 65px;
-}
-
-.hero3 {
-    position: absolute;
-    width: 388px;
+.hero {
+    align-items: center;
+    background-image: url(./images/hero.png);
+    background-repeat: no-repeat;
+    background-position: center;
     height: 715px;
-    left: 1052px;
-    top: 64px;
 }
+
+.headline {
+    margin: 0 auto;
+    padding-top: 115px;
+    padding-bottom: 321px;
+    /* h1  */
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 139px;
+    text-align: center;
+}
+
+.heroimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* _______________________________________________________________________ */
+/* ___ABOUT_CONTAINER_____________________________________________________ */
+
+.container {
+    margin: 0 auto;
+    width: 1440px;
+    padding: 10px 0px;
+}
+  
+.about {
+    padding-top: 30px;
+    padding-bottom: 65px;
+    display: flex;
+    background-color: #010632;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+    background-color: #060d49;
+}
+  
+.about-text-wrapper {
+    margin-left: 128px;
+    margin-right: 85px;
+}
+
+.about-headind {
+    width: 375px;
+  
+    font-family: "Istok Web";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 69px;
+  
+    color: #ffffff;
+}
+  
+.about-text {
+    width: 414px;
+    height: 233px;
+  
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+  
+    color: #ffffff;
+}
+  
+.about-photo__list {
+    display: flex;
+    padding-top: 5px;
+}
+  
+.about-photo__list--item:not(:last-child) {
+    margin-right: 35px;
+}
+
+.bottom-photo {
+    margin-top: 155px;
+}
+
+/* _______________________________________________________________________ */
+/* ___IF_SECTION__________________________________________________________ */
+
+.if {
+    margin: 0 auto;
+    width: 1440px;
+    padding: 10px 0px;
+    background-color: #010632;
+}
+
+.if-headline {
+    padding-left: 320px;
+    padding-right: 320px;
+
+    /* h2 */
+
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 69px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.collage-img1 {
+    position: absolute;
+    width: 364px;
+    height: 264px;
+    margin-left: 139px;
+    margin-top: 159px;
+}
+
+.collage-img2 {
+    position: absolute;
+    width: 364px;
+    height: 114px;
+    margin-left: 539px;
+    margin-top: 159px;
+}
+
+.collage-img3 {
+    position: absolute;
+    width: 364px;
+    height: 129px;
+    margin-left: 539px;
+    margin-top: 294px;
+}
+
+.collage-img4 {
+    position: absolute;
+    width: 364px;
+    height: 557px;
+    margin-left: 939px;
+    margin-top: 159px;
+}
+
+.collage-img5 {
+    position: absolute;
+    width: 264px;
+    height: 261px;
+    margin-left: 139px;
+    margin-top: 444px;
+}
+
+.collage-img6 {
+    position: absolute;
+    width: 465px;
+    height: 264px;
+    margin-left: 438px;
+    margin-top: 444px;
+}
+
