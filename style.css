@@ -49,7 +49,7 @@ header {
     margin-right: 55px;
 }
 
-.header-title {
+.standwithukraine-title {
     list-style: none;
     font-family: 'Istok Web';
     font-style: normal;
@@ -215,15 +215,175 @@ header {
     object-fit: contain;
 }
 
-/* .v-stretch{
-    grid-row: span 2;
+@media(max-width: 465px){
+    .v-stretch{
+        grid-row: span 2;
+    }
+    
+    .h-stretch{
+        grid-column: span 2;
+    }
+    
+    .big-stretch{
+        grid-row: span 2;
+        grid-column: span 2;
+    }
 }
 
-.h-stretch{
-    grid-column: span 2;
+/* _______________________________________________________________________ */
+/* ___CHARITY_____________________________________________________________ */
+
+.charity {
+    margin: 0 auto;
+    width: 1440px;
+    height: 857px;
+    padding: 10px 0px;
+    background-color: #060D49;
 }
 
-.big-stretch{
-    grid-row: span 2;
-    grid-column: span 2;
-} */
+.projects-main-headline {
+    padding-left: 320px;
+    padding-right: 320px;
+
+    /* h2 */
+
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 69px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.projects-list {
+    margin: 0 auto;
+    margin-top: 65px;
+    display: flex;
+    justify-content: center;
+}
+
+.element {
+    background-color: #fff;
+    width: 365px;
+    height: 487px;
+}
+
+.projects-list-item:not(:last-child) {
+    margin-right: 35px;
+}
+
+.projects-image {
+    margin-left: 15px;
+    margin-top: 26px;
+}
+
+.project-headline {
+    margin-top: -6px;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 69px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.project-text {
+    margin-top: -22px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.percentation {
+    margin-top: -27px;
+}
+
+
+.sf-prc{
+    margin-top: -40px;
+    margin-left: 100px;
+}
+
+.tf-prc{
+    margin-top: -85px;
+    margin-left: 100px;
+}
+
+.button_ {
+    width: 235px;
+    height: 61px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+    background: #0057FF;
+    border-radius: 15px;
+}
+
+.button-box {
+    margin-top: -38px;
+    text-align: center;
+}
+
+/* _______________________________________________________________________ */
+/* ___FOOTER______________________________________________________________ */
+
+footer {
+    margin: 0 auto;
+    width: 1440px;
+    height: 349px;
+    padding: 10px 0px;
+    background-color: #010632;
+}
+
+.footer-title {
+    margin-top: 1px;
+    text-align: center;
+}
+
+.footer-text-style {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.social-media {
+    margin-right: 40px;
+}
+
+.footer_margin-left{
+    margin-left: 138px;
+}
+
+.some_info{
+    text-align: center;
+}
