@@ -376,8 +376,8 @@ footer {
     color: #FFFFFF;
 }
 
-.social-media {
-    margin-right: 40px;
+.social {
+    margin-left: 40px;
 }
 
 .footer_margin-left{
@@ -386,4 +386,12 @@ footer {
 
 .some_info{
     text-align: center;
+}
+
+.some-list {
+    height: 600px;
+}
+
+.svg {
+    fill: aliceblue;
 }
