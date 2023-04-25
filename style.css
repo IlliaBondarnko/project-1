@@ -184,50 +184,34 @@ header {
 
 }
 
-/* .collage-list1 {
+img {
+    display: block;
+}
+
+.imagesss {
+    display: flex;
+    justify-content: center;
+}
+
+.ul1 {
     display: flex;
     flex-direction: row;
-    margin-right: 36px;
-    margin-bottom: 21px;
 }
-
-.collage-list2 {
-    display: flex;
-    flex-direction: column;
-    padding-left: 539px;
-    padding-top: 159px;
-    margin-right: 36px;
-    margin-bottom: 21px;
-} */
-
-.colage-wrapper {
-    width: 1165px;
-    height: 545px;
-    display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: minmax(264px, 1fr);
+  
+.ul1:not(:last-child) {
+    margin-bottom: 30px;
 }
-
-.colage-wrapper div img{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+  
+.frst-img {
+    margin-right: 30px;
 }
-
-@media(max-width: 465px){
-    .v-stretch{
-        grid-row: span 2;
-    }
-    
-    .h-stretch{
-        grid-column: span 2;
-    }
-    
-    .big-stretch{
-        grid-row: span 2;
-        grid-column: span 2;
-    }
+  
+.second-img {
+    margin-bottom: 20px;
+}
+  
+.li22:not(:last-child) {
+    margin-right: 35px;
 }
 
 /* _______________________________________________________________________ */
@@ -269,6 +253,8 @@ header {
     background-color: #fff;
     width: 365px;
     height: 487px;
+    border-radius: 15px;
+    box-shadow: rgb(12, 12, 12) 0px 20px 30px -10px;
 }
 
 .projects-list-item:not(:last-child) {
@@ -277,7 +263,7 @@ header {
 
 .projects-image {
     margin-left: 15px;
-    margin-top: 26px;
+    padding-top: 20px;
 }
 
 .project-headline {
@@ -315,36 +301,64 @@ header {
 
 
 .sf-prc{
-    margin-top: -40px;
+    margin-top: -20px;
     margin-left: 100px;
 }
 
 .tf-prc{
-    margin-top: -85px;
+    margin-top: -6px;
     margin-left: 100px;
 }
 
-.button_ {
-    width: 235px;
-    height: 61px;
 
-    font-family: 'Jost';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 35px;
-    /* identical to box height */
-
-    text-align: center;
-
-    color: #FFFFFF;
-
-    background: #0057FF;
-    border-radius: 15px;
+.button-29 {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
 }
 
+.button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+
 .button-box {
-    margin-top: -38px;
+    margin-top: 15px;
     text-align: center;
 }
 
