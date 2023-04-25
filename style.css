@@ -88,6 +88,7 @@ header {
 }
 
 .heroimg {
+    margin: 0 auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -314,7 +315,8 @@ img {
 .button-29 {
   align-items: center;
   appearance: none;
-  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  background: rgb(37,158,255);
+  background: linear-gradient(180deg, rgba(37,158,255,1) 35%, rgba(255,196,0,1) 100%);
   border: 0;
   border-radius: 6px;
   box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
@@ -322,14 +324,16 @@ img {
   color: #fff;
   cursor: pointer;
   display: inline-flex;
-  font-family: "JetBrains Mono",monospace;
-  height: 48px;
+  width: 235px;
+  height: 61px;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
   justify-content: center;
   line-height: 1;
   list-style: none;
   overflow: hidden;
-  padding-left: 16px;
-  padding-right: 16px;
   position: relative;
   text-align: left;
   text-decoration: none;
@@ -339,7 +343,6 @@ img {
   touch-action: manipulation;
   white-space: nowrap;
   will-change: box-shadow,transform;
-  font-size: 18px;
 }
 
 .button-29:focus {
@@ -391,17 +394,29 @@ footer {
 }
 
 .social {
-    margin-left: 40px;
+    margin-top: -178px;
+    margin-left: 938px;
 }
 
 .footer_margin-left{
     margin-left: 138px;
 }
 
-.some_info{
+.trips{
+    margin-top: 41px;
     text-align: center;
 }
 
-.some-list {
-    height: 600px;
+.some-list{
+    margin-left: 900px;
+    
+}
+
+.iconslist{
+    display: flex;
+    flex-direction: row;
+}
+
+.social-list-item:not(:last-child){
+    margin-right: 35px;
 }
