@@ -86,20 +86,20 @@
         <div class="father">
           <ul class="ul1">
             <li>
-              <img class="frst-img" src="./images/collage1.png" alt="*тематичне злюраження*" />
+              <img class="img_block frst-img" src="./images/collage1.png" alt="*тематичне злюраження*" />
             </li>
             <li>
-              <img class="second-img" src="./images/collage2.png" alt="*тематичне злюраження*" />
-              <img src="./images/collage3.png" alt="*тематичне злюраження*" />
+              <img class="img_block second-img" src="./images/collage2.png" alt="*тематичне злюраження*" />
+              <img class="img_block" src="./images/collage3.png" alt="*тематичне злюраження*" />
             </li>
           </ul>
           <ul class="ul1">
-            <li class="li22"><img src="./images/collage5.png" alt="*тематичне злюраження*" /></li>
-            <li class="li22"><img src="./images/collage6.png" alt="*тематичне злюраження*" /></li>
+            <li class="li22"><img class="img_block" src="./images/collage5.png" alt="*тематичне злюраження*" /></li>
+            <li class="li22"><img class="img_block" src="./images/collage6.png" alt="*тематичне злюраження*" /></li>
           </ul>
         </div>
         <ul class="ul2">
-          <li><img src="./images/collage4.png" alt="*тематичне злюраження*" /></li>
+          <li><img class="img_block" src="./images/collage4.png" alt="*тематичне злюраження*" /></li>
         </ul>
       </section>
     </section>
@@ -118,11 +118,39 @@
               <p class="project-text">Lorem Ipsum is simply</p>
               <p class="percentation project-text">25%</p>
               <div class="vectors">
-                <img src="/vectors/75percent.svg" alt="progress-bar" class="sf-prc"/>
-                <img src="/vectors/25percent.svg" alt="progress-bar" class="tf-prc"/>
+                <img src="/vectors/75percent.svg" alt="progress-bar" class="img_block sf-prc"/>
+                <img src="/vectors/25percent.svg" alt="progress-bar" class="img_block tf-prc"/>
               </div>
               <div class="button-box">
-                <button class="button-29">Підтримати</button>
+                <button class="button-29" modal-open>Підтримати</button>                
+              </div>
+              <div class="backdrop is-hidden" modal>
+                <div class="modal">
+                  <button class="button-close" modal-close>
+                    <svg class="icon-close">
+                      <use href="./vectors/Close.svg"></use>
+                    </svg>
+          
+                    <!-- <span class="icon-close">X</span> -->
+                  </button>
+                  <form class="form">
+                    <!-- <span class="input-wrapper">
+                      <input
+                        class="form__input input-unique"
+                        type="text"
+                        placeholder="Write your email"
+                      />
+                      <button class="confirm__button" type="button">Confirm</button>
+                    </span> -->
+                    <input class="form__input" type="text" placeholder="Your Country" />
+                    <input class="form__input" type="text" placeholder="Your City" />
+                    <input class="form__input" type="text" placeholder="Your Adress" />
+                    <button type="submit" class="btn btn-outline-primary button">
+                      Order my Nike
+                    </button>
+                  </form>
+                  <img class="modal--image" src="./images/pojects1.png" alt="*тематичне злюраження*" width="335px" height="446px"/>
+                </div>
               </div>
             </div>
           </li>
@@ -138,8 +166,8 @@
               <p class="project-text">Lorem Ipsum is simply</p>
               <p class="percentation project-text">25%</p>
               <div class="vectors">
-                <img src="/vectors/75percent.svg" alt="progress-bar" class="sf-prc"/>
-                <img src="/vectors/25percent.svg" alt="progress-bar" class="tf-prc"/>
+                <img src="/vectors/75percent.svg" alt="progress-bar" class="img_block sf-prc"/>
+                <img src="/vectors/25percent.svg" alt="progress-bar" class="img_block tf-prc"/>
               </div>
               <div class="button-box">
                 <button class="button-29">Підтримати</button>
@@ -157,8 +185,8 @@
               <p class="project-text">Lorem Ipsum is simply</p>
               <p class="percentation project-text">25%</p>
               <div class="vectors">
-                <img src="/vectors/75percent.svg" alt="progress-bar" class="sf-prc"/>
-                <img src="/vectors/25percent.svg" alt="progress-bar" class="tf-prc"/>
+                <img src="/vectors/75percent.svg" alt="progress-bar" class="img_block sf-prc"/>
+                <img src="/vectors/25percent.svg" alt="progress-bar" class="img_block tf-prc"/>
               </div>
               <div class="button-box">
                 <button class="button-29">Підтримати</button>
@@ -196,5 +224,6 @@
       </div>
       <p class="trips footer-text-style">Ⓒ 2022 trips</p>
     </footer>
+    <script src="./index.js"></script>
   </body>
 </html>

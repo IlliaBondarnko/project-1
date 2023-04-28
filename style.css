@@ -1,356 +1,343 @@
 body {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 /* ___HEADER______________________________________________________________ */
 
 header {
-    height: 65px;
-    margin: 0 auto;
-    width: 1440px;
-    background-color: #010632;
+  height: 65px;
+  margin: 0 auto;
+  width: 1440px;
+  background-color: #010632;
 }
 
-
 .nav-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 4px;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 4px;
+  align-items: center;
 }
 
 .nav-list-item {
-    list-style: none;
-    text-decoration: none;
+  list-style: none;
+  text-decoration: none;
 
-    font-family: 'Jost';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 35px;
-    /* текст */
-    color: #FFFFFF;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  /* текст */
+  color: #ffffff;
 }
 
 .nav-list-item:hover {
-    color: #ffb800;
-    cursor: pointer;
+  color: #ffb800;
+  cursor: pointer;
 }
 
 .nav-list-item:not(:last-child) {
-    margin-right: 55px;
+  margin-right: 55px;
 }
 
 .standwithukraine-title {
-    list-style: none;
-    font-family: 'Istok Web';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 69px;
-    margin-right: 55px;
-    /* identical to box height */
+  list-style: none;
+  font-family: "Istok Web";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 69px;
+  margin-right: 55px;
+  /* identical to box height */
 
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 /* _______________________________________________________________________ */
 /* ___HERO________________________________________________________________ */
 
 .hero {
-    align-items: center;
-    background-image: url(./images/hero.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 715px;
+  align-items: center;
+  background-image: url(./images/hero.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 715px;
 }
 
 .headline {
-    margin: 0 auto;
-    padding-top: 115px;
-    padding-bottom: 321px;
-    /* h1  */
+  margin: 0 auto;
+  padding-top: 115px;
+  padding-bottom: 321px;
+  /* h1  */
 
-    font-family: 'Jost';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 96px;
-    line-height: 139px;
-    text-align: center;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 139px;
+  text-align: center;
 }
 
 .heroimg {
-    margin: 0 auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  margin: 0 auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* _______________________________________________________________________ */
 /* ___ABOUT_CONTAINER_____________________________________________________ */
 
 .container {
-    margin: 0 auto;
-    width: 1440px;
-    padding: 10px 0px;
+  margin: 0 auto;
+  width: 1440px;
+  padding: 10px 0px;
 }
-  
+
 .about {
-    padding-top: 30px;
-    padding-bottom: 65px;
-    display: flex;
-    background-color: #010632;
+  padding-top: 30px;
+  padding-bottom: 65px;
+  display: flex;
+  background-color: #010632;
 }
 
 .reverse {
-    flex-direction: row-reverse;
-    background-color: #060d49;
+  flex-direction: row-reverse;
+  background-color: #060d49;
 }
-  
+
 .about-text-wrapper {
-    margin-left: 128px;
-    margin-right: 85px;
+  margin-left: 128px;
+  margin-right: 85px;
 }
 
 .about-headind {
-    width: 375px;
-  
-    font-family: "Istok Web";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 69px;
-  
-    color: #ffffff;
+  width: 375px;
+
+  font-family: "Istok Web";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 69px;
+
+  color: #ffffff;
 }
-  
+
 .about-text {
-    width: 414px;
-    height: 233px;
-  
-    font-family: "Jost";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 35px;
-  
-    color: #ffffff;
+  width: 414px;
+  height: 233px;
+
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+
+  color: #ffffff;
 }
-  
+
 .about-photo__list {
-    display: flex;
-    padding-top: 5px;
+  display: flex;
+  padding-top: 5px;
 }
-  
+
 .about-photo__list--item:not(:last-child) {
-    margin-right: 35px;
+  margin-right: 35px;
 }
 
 .bottom-photo {
-    margin-top: 155px;
+  margin-top: 155px;
 }
 
 /* _______________________________________________________________________ */
 /* ___IF_SECTION__________________________________________________________ */
 
 .if {
-    margin: 0 auto;
-    width: 1440px;
-    padding: 10px 0px;
-    background-color: #010632;
+  margin: 0 auto;
+  width: 1440px;
+  padding: 10px 0px;
+  background-color: #010632;
 }
 
 .if-headline {
-    padding-left: 320px;
-    padding-right: 320px;
+  padding-left: 320px;
+  padding-right: 320px;
 
-    /* h2 */
+  /* h2 */
 
-    font-family: 'Istok Web';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 69px;
-    text-align: center;
+  font-family: "Istok Web";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 69px;
+  text-align: center;
 
-    color: #FFFFFF;
-
+  color: #ffffff;
 }
 
-img {
-    display: block;
+.img_block {
+  display: block;
 }
 
 .imagesss {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .ul1 {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
-  
+
 .ul1:not(:last-child) {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
-  
+
 .frst-img {
-    margin-right: 30px;
+  margin-right: 30px;
 }
-  
+
 .second-img {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
-  
+
 .li22:not(:last-child) {
-    margin-right: 35px;
+  margin-right: 35px;
 }
 
 /* _______________________________________________________________________ */
 /* ___CHARITY_____________________________________________________________ */
 
 .charity {
-    margin: 0 auto;
-    width: 1440px;
-    height: 857px;
-    padding: 10px 0px;
-    background-color: #060D49;
+  margin: 0 auto;
+  width: 1440px;
+  height: 857px;
+  padding: 10px 0px;
+  background-color: #060d49;
 }
 
 .projects-main-headline {
-    padding-left: 320px;
-    padding-right: 320px;
+  padding-left: 320px;
+  padding-right: 320px;
 
-    /* h2 */
+  /* h2 */
 
-    font-family: 'Istok Web';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 69px;
-    text-align: center;
+  font-family: "Istok Web";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 69px;
+  text-align: center;
 
-    color: #FFFFFF;
-
+  color: #ffffff;
 }
 
 .projects-list {
-    margin: 0 auto;
-    margin-top: 65px;
-    display: flex;
-    justify-content: center;
+  margin: 0 auto;
+  margin-top: 65px;
+  display: flex;
+  justify-content: center;
 }
 
 .element {
-    background-color: #fff;
-    width: 365px;
-    height: 487px;
-    border-radius: 15px;
-    box-shadow: rgb(12, 12, 12) 0px 20px 30px -10px;
+  background-color: #fff;
+  width: 365px;
+  height: 487px;
+  border-radius: 15px;
+  box-shadow: rgb(12, 12, 12) 0px 20px 30px -10px;
 }
 
 .projects-list-item:not(:last-child) {
-    margin-right: 35px;
+  margin-right: 35px;
 }
 
 .projects-image {
-    margin-left: 15px;
-    padding-top: 20px;
+  margin-left: 15px;
+  padding-top: 20px;
 }
 
 .project-headline {
-    margin-top: -6px;
-    font-family: 'Istok Web';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 69px;
-    /* identical to box height */
+  margin-top: -6px;
+  font-family: "Istok Web";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 69px;
+  /* identical to box height */
 
-    text-align: center;
+  text-align: center;
 
-    color: #000000;
+  color: #000000;
 }
 
 .project-text {
-    margin-top: -22px;
+  margin-top: -22px;
 
-    font-family: 'Jost';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 35px;
-    /* identical to box height */
-
-    text-align: center;
-
-    color: #000000;
-}
-
-.percentation {
-    margin-top: -27px;
-}
-
-
-.sf-prc{
-    margin-top: -20px;
-    margin-left: 100px;
-}
-
-.tf-prc{
-    margin-top: -6px;
-    margin-left: 100px;
-}
-
-
-.button-29 {
-  align-items: center;
-  appearance: none;
-  background: rgb(37,158,255);
-  background: linear-gradient(180deg, rgba(37,158,255,1) 35%, rgba(255,196,0,1) 100%);
-  border: 0;
-  border-radius: 6px;
-  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
-  box-sizing: border-box;
-  color: #fff;
-  cursor: pointer;
-  display: inline-flex;
-  width: 235px;
-  height: 61px;
-  font-family: 'Jost';
+  font-family: "Jost";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
-  justify-content: center;
-  line-height: 1;
-  list-style: none;
-  overflow: hidden;
-  position: relative;
-  text-align: left;
-  text-decoration: none;
-  transition: box-shadow .15s,transform .15s;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  white-space: nowrap;
-  will-change: box-shadow,transform;
+  line-height: 35px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.percentation {
+  margin-top: -27px;
+}
+
+.sf-prc {
+  margin-top: -20px;
+  margin-left: 100px;
+}
+
+.tf-prc {
+  margin-top: -6px;
+  margin-left: 100px;
+}
+
+.button-29 {
+    align-items: center;
+  background-image: radial-gradient(
+    100% 100% at 100% 0,
+    #5adaff 0,
+    #5468ff 100%
+  );
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  width: 235px;
+  height: 61px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
 }
 
 .button-29:focus {
-  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
 }
 
 .button-29:hover {
-  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
   transform: translateY(-2px);
 }
 
@@ -359,64 +346,207 @@ img {
   transform: translateY(2px);
 }
 
-
-.button-box {
-    margin-top: 15px;
-    text-align: center;
+.button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
 }
 
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.button-box {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* filter: blur(5.5px);  пошукати*/
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.modal {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+
+  width: 1005px;
+  height: 600px;
+  border-radius: 20px;
+
+  padding: 14px 55px 115px 45px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 10;
+}
+
+.input-wrapper {
+  position: relative;
+}
+
+.form__input {
+  display: block;
+
+  width: 519px;
+  height: 55px;
+
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 50px;
+
+  padding-left: 25px;
+  margin-bottom: 65px;
+  margin-right: 55px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #959595;
+}
+
+.input-unique {
+  width: 690px;
+  height: 60px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 33px;
+
+  color: #8d8d8d;
+
+  padding-right: 265px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 50px;
+}
+
+.confirm__button {
+  position: absolute;
+  top: 5px;
+  right: 7px;
+  width: 250px;
+  height: 50px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 33px;
+
+  color: #8d8d8d;
+
+  opacity: 0.5;
+  border: 1px solid #000000;
+  border-radius: 50px;
+}
+
+.button {
+  width: 250px;
+  height: 70px;
+}
+
+.modal--image {
+  margin-top: 70px;
+}
+
+.button-close {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+
+  width: 22px;
+  height: 22px;
+}
+
+.icon-close {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+  fill: red;
+  /* font-size: 30px; */
+}
 /* _______________________________________________________________________ */
 /* ___FOOTER______________________________________________________________ */
 
 footer {
-    margin: 0 auto;
-    width: 1440px;
-    height: 349px;
-    padding: 10px 0px;
-    background-color: #010632;
+  margin: 0 auto;
+  width: 1440px;
+  height: 349px;
+  padding: 10px 0px;
+  background-color: #010632;
 }
 
 .footer-title {
-    margin-top: 1px;
-    text-align: center;
+  margin-top: 1px;
+  text-align: center;
 }
 
 .footer-text-style {
-    font-family: 'Jost';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 35px;
-    /* identical to box height */
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  /* identical to box height */
 
-
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 .social {
-    margin-top: -178px;
-    margin-left: 938px;
+  margin-top: -178px;
+  margin-left: 938px;
 }
 
-.footer_margin-left{
-    margin-left: 138px;
+.footer_margin-left {
+  margin-left: 138px;
 }
 
-.trips{
-    margin-top: 41px;
-    text-align: center;
+.trips {
+  margin-top: 41px;
+  text-align: center;
 }
 
-.some-list{
-    margin-left: 900px;
-    
+.some-list {
+  margin-left: 900px;
 }
 
-.iconslist{
-    display: flex;
-    flex-direction: row;
+.iconslist {
+  display: flex;
+  flex-direction: row;
 }
 
-.social-list-item:not(:last-child){
-    margin-right: 35px;
+.social-list-item:not(:last-child) {
+  margin-right: 35px;
 }
