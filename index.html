@@ -12,7 +12,7 @@
       rel="stylesheet"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Istok+Web:wght@700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -127,9 +127,7 @@
               <div class="backdrop is-hidden" modal>
                 <div class="modal">
                   <button class="button-close" modal-close>
-                    <svg class="icon-close">
-                      <use href="./vectors/Close.svg"></use>
-                    </svg>
+                    <img src="./vectors/Close.svg" alt="">
           
                     <!-- <span class="icon-close">X</span> -->
                   </button>
@@ -142,11 +140,16 @@
                       />
                       <button class="confirm__button" type="button">Confirm</button>
                     </span> -->
-                    <input class="form__input" type="text" placeholder="Your Country" />
-                    <input class="form__input" type="text" placeholder="Your City" />
-                    <input class="form__input" type="text" placeholder="Your Adress" />
-                    <button type="submit" class="btn btn-outline-primary button">
-                      Order my Nike
+                    <ul class="modal_list">
+                      <li class="modalmargintext modal_list_item"><p class="modal_text">Email</p></li>
+                      <li class="modal_list_item"><input class="form__input" type="text"/></li>
+                      <li class="modalmargintext modal_list_item"><p class="modal_text">Money</p></li>
+                      <li class="modal_list_item"><input class="form__input" type="text"/></li>
+                      <li class="modalmargintext modal_list_item"><p class="modal_text">Card Number</p></li>
+                      <li class="modal_list_item"><input class="form__input" type="text"/></li>
+                    </ul>
+                    <button type="submit" class="button-29 btn btn-outline-primary __button">
+                      Підтримати
                     </button>
                   </form>
                   <img class="modal--image" src="./images/pojects1.png" alt="*тематичне злюраження*" width="335px" height="446px"/>

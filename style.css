@@ -398,23 +398,25 @@ header {
   padding: 14px 55px 115px 45px;
 }
 
-.form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  z-index: 10;
-}
-
 .input-wrapper {
   position: relative;
+}
+
+.modal_text {
+  font-family: 'Istok Web';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  /* identical to box height */
+
+  color: #7C7C7C;
 }
 
 .form__input {
   display: block;
 
-  width: 519px;
+  width: 460px;
   height: 55px;
 
   background: #ffffff;
@@ -472,31 +474,45 @@ header {
   border-radius: 50px;
 }
 
-.button {
+.__button {
   width: 250px;
   height: 70px;
+  margin-left: 40px;
 }
 
 .modal--image {
-  margin-top: 70px;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+.modal_list {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal_list_item:not(:last-child){
+  margin-bottom: -25px;
+}
+
+.modalmargintext {
+  margin-left: 10px;
 }
 
 .button-close {
   position: absolute;
-  top: 30px;
+  top: 5px;
   right: 30px;
 
+  cursor: pointer;
+
   width: 22px;
   height: 22px;
+
+  border: none;
+  
+  background-color: white;
 }
 
-.icon-close {
-  width: 22px;
-  height: 22px;
-  cursor: pointer;
-  fill: red;
-  /* font-size: 30px; */
-}
 /* _______________________________________________________________________ */
 /* ___FOOTER______________________________________________________________ */
 
